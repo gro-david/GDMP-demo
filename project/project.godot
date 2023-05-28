@@ -12,6 +12,7 @@ config_version=5
 
 config/name="GDMP Demo"
 config/description="Demo project for GDMP plugin"
+run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
 
@@ -22,6 +23,14 @@ window/stretch/mode="viewport"
 [dotnet]
 
 project/assembly_name="GDMP Demo"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GDMP/plugin.cfg")
+
+[native_extensions]
+
+paths=["res://addons/GDMP/GDMP.gdextension"]
 
 [rendering]
 
