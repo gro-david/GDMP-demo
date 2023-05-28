@@ -3,9 +3,12 @@ This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin.
 
 > **Warning**: This repository is intended to be rebased constantly.
 
-Current Godot version:
+Current Godot version: **3.5.2.stable**
 
 Current supported platforms:
+
+- Android
+- Linux desktop
 
 ---
 

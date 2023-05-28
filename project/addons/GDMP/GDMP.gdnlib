@@ -1,0 +1,18 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="mediapipe_"
+reloadable=true
+
+[entry]
+
+Windows.64="res://addons/GDMP/libs/x86_64/GDMP.dll"
+X11.64="res://addons/GDMP/libs/x86_64/libGDMP.so"
+iOS.arm64="res://addons/GDMP/libs/ios/GDMP.a"
+
+[dependencies]
+
+Windows.64=[  ]
+X11.64=[  ]
+iOS.arm64=[  ]
