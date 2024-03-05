@@ -1,0 +1,27 @@
+# The following steps will be required for Calibration:
+
+    We will first need to detect the different zones/regions of the keyboard. Since this would be complicated to do automatically, we will do this with the help of the user. They will need to press the keys on both sides of the zone borders, one at the time with the right index finger. When the right button is pressed, we will record the position of the right index finger which will tell us where the zone border is. This will also help us determine, the distance between the single keys.
+
+![Keyboard zones](https://typespeedtest.com/assets/touch-control.svg)
+
+    We will need to press all the Alphanumeric Keys (probably) to get the zones. The space key will also need to be recorded. The user will have to press both edges of th space key to record the space key's position.
+
+# Types of tests to be conducted:
+    1. All lowercase
+    2. Separate for each finger
+    3. Separate for each hand
+    4. Numpad training
+    5. Custom training
+
+# Switches for more Variety:
+    1. Include caps
+    2. Include numbers
+    3. Include symbols
+    4. Include enter
+
+# Score based on:
+    1. Time taken
+    2. Number of wrong keys pressed
+    3. Number of non corrected keys
+    4. Number of times when wrong finger was used
+
